@@ -1,0 +1,9 @@
+com\aws\codestar\projecttemplates\controller\BuildingController.class
+com\aws\codestar\projecttemplates\Dao\BuildingDao.class
+com\aws\codestar\projecttemplates\Dao\ElevatorDao.class
+com\aws\codestar\projecttemplates\Dao\BuildingDao$1.class
+com\aws\codestar\projecttemplates\Entity\Building.class
+com\aws\codestar\projecttemplates\Entity\Elevator.class
+com\aws\codestar\projecttemplates\service\BuildingService.class
+com\aws\codestar\projecttemplates\Dao\ElevatorDao$1.class
+com\aws\codestar\projecttemplates\service\ElevatorService.class

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Penny's PC
+Build-Jdk: version 16
+Implementation-Title: Sample Java Spring web service Using AWS CodeStar
+Implementation-Version: 1.0
+Implementation-Vendor-Id: com.aws.codestar.projecttemplates
+Main-Class: ${start-class}
+
