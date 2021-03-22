@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.aws.codestar.projecttemplates.controller.UserControllerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 s <<< FAILURE! - in com.aws.codestar.projecttemplates.controller.UserControllerTest
+AddUser  Time elapsed: 0 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.aws.codestar.projecttemplates.service.UserService.AddUser(String, String)" because "this.userservice" is null
+	at com.aws.codestar.projecttemplates.controller.UserControllerTest.AddUser(UserControllerTest.java:55)
+

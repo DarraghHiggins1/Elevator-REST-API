@@ -20,7 +20,6 @@ public class ElevatorDao {
     private JdbcTemplate jdbcTemplate;
 
     public Collection<Elevator> getAlElevators(){
-
         List<Elevator> elevator = jdbcTemplate.query("SELECT * FROM ElevatorTest.Elevator",
                 new RowMapper<Elevator>() {
                     @Override
@@ -36,6 +35,11 @@ public class ElevatorDao {
                 }
         );
         return elevator;
+    }
+
+    public int  getCurrentFloor(){
+
+        return 0;
     }
 
 

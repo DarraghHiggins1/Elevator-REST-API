@@ -19,6 +19,10 @@ public class ElevatorService {
         return this.elevatordao.getAlElevators();
     }
 
+    public int getCurrentFloor() {
+        return this.elevatordao.getCurrentFloor();
+    }
+
 
 
 
